@@ -2,7 +2,7 @@
 
 Ghost is a free, open, simple blogging platform. Visit the project's website at <http://ghost.org>, or read the docs on <http://support.ghost.org>.
 
-## Ghost version 1.X
+## Ghost version 2.X
 
 The latest release of Ghost is now supported! Changes include:
 
@@ -59,7 +59,7 @@ heroku config:set S3_BUCKET_REGION=us-east-1 --app YOURAPPNAME
 
 ### How this works
 
-This repository is a [Node.js](https://nodejs.org) web application that specifies [Ghost as a dependency](https://docs.ghost.org/v1.0.0/docs/using-ghost-as-an-npm-module), and makes a deploy button available.
+This repository is a [Node.js](https://nodejs.org) web application that specifies [Ghost as a dependency](https://docs.ghost.org/v2.0.0/docs/using-ghost-as-an-npm-module), and makes a deploy button available.
 
   * Ghost and Casper theme versions are declared in the Node app's [`package.json`](package.json)
   * Scales across processor cores in larger dynos via [Node cluster API](https://nodejs.org/dist/latest-v6.x/docs/api/cluster.html)
